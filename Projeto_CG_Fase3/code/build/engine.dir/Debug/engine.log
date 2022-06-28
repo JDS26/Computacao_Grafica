@@ -1,6 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2065,5): warning : The referenced project 'C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\code\build\ZERO_CHECK.vcxproj' does not exist.
-  Building Custom Rule C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/code/CMakeLists.txt
-  CMake is re-running because C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/code/build/CMakeFiles/generate.stamp dependency file is missing.
-CUSTOMBUILD : CMake error : The source directory "C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/code" does not appear to contain CMakeLists.txt.
-  Specify --help for usage, or press the help button on the CMake GUI.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(245,5): error MSB8066: o build personalizado para 'C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\code\CMakeLists.txt' foi encerrado com o código 1.

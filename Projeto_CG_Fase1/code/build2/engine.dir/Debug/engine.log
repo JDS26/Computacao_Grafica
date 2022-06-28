@@ -1,5 +1,0 @@
-﻿  engine.cpp
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\fase1\code\engine.cpp(204,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\fase1\code\engine.cpp(221,10): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\fase1\code\engine.cpp(229,10): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  engine.vcxproj -> C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\fase1\code\build2\Debug\engine.exe

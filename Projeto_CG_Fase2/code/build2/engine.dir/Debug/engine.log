@@ -1,7 +1,0 @@
-﻿  engine.cpp
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\Projeto CG- Fase2\code\engine.cpp(285,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\Projeto CG- Fase2\code\engine.cpp(302,10): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\Projeto CG- Fase2\code\engine.cpp(310,10): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\Projeto CG- Fase2\code\engine.cpp(411,14): warning C4101: 'file3d': variável local não referenciada
-C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\Projeto CG- Fase2\code\engine.cpp(412,18): warning C4101: 'c': variável local não referenciada
-  engine.vcxproj -> C:\Users\jdtcs\OneDrive\Ambiente de Trabalho\Uni\3ano\CG\TrabalhoPratico\Projeto CG- Fase2\code\build2\Debug\engine.exe
