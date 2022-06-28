@@ -1,0 +1,10 @@
+^C:\USERS\JDTCS\ONEDRIVE\AMBIENTE DE TRABALHO\UNI\3ANO\CG\TRABALHOPRATICO\FASE1\CODE\BUILD2\CMAKEFILES\FBDBE64E90F34F6C06C6C63C172F982C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/fase1/code" "-BC:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/fase1/code/build2" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/fase1/code/build2/engine.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,4 @@
+C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/Projeto_CG_Fase4/code/build3/CMakeFiles/generator.dir
+C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/Projeto_CG_Fase4/code/build3/CMakeFiles/engine.dir
+C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/Projeto_CG_Fase4/code/build3/CMakeFiles/ALL_BUILD.dir
+C:/Users/jdtcs/OneDrive/Ambiente de Trabalho/Uni/3ano/CG/TrabalhoPratico/Projeto_CG_Fase4/code/build3/CMakeFiles/ZERO_CHECK.dir

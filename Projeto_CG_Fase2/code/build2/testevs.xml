@@ -1,0 +1,264 @@
+<world> 
+	<camera> 
+	    <position x="3" y="10" z="4" />
+	    <lookAt x="0" y="0" z="0" />
+	    <up x="0" y="1" z="0" /> 
+        <projection fov="60" near="1" far="1000" /> 
+    </camera>
+		<!-- SOl -->
+    <group>
+        <transform> 
+            <translate x="0" y="0" z="0" />
+        </transform>
+        <group>
+        	<transform> 
+        		<scale x="5.5" y="5.5" z="5.5"/>
+        	</transform>
+        	 <models>
+        	 	 <model file="sphere.3d"/> <!-- generator sphere 1 25 25 sphere.3d --> 
+        	</models>
+        </group>	
+        <!-- MERCURIO -->
+        <group>
+        	<transform>
+        		<translate x="7" y="0.0" z="0.0"/>
+                <rotate angle="0.027" x="0" y ="0" z = "1" />
+        		<scale x="0.1" y="0.1" z="0.1"/>
+        	</transform>
+        	<models>
+        		<model file="sphere.3d"/>
+        	</models>
+        </group>
+        <!-- VENUS -->	
+        <group>
+        	<transform>
+        		<translate x="12.4" y="0" z="0"/>
+                 <rotate angle="177.3" x="0" y ="0" z = "1" />
+        		<scale x="0.29" y="0.29" z="0.29"/>
+        	</transform>
+        	 <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <!-- TERRA -->
+        <group>
+        	<transform>
+        		<translate x="17.0" y="0" z="0"/>
+                <rotate angle="23.5" x="0" y ="0" z = "1" />
+        		<scale x="0.3" y="0.3" z="0.3"/>
+        	</transform>
+        	<models>
+                <model file="sphere.3d"/>
+            </models>
+            <group>
+            	<transform>
+                    <rotate angle="-23.5" x="0" y ="0" z = "1" />
+            		<translate x="1.034" y="1.015" z="0"/>
+                    <scale x="0.1" y="0.1" z="0.1"/>
+                </transform>   
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+        </group>
+        <!-- MARTE -->
+        <group>
+        	<transform>
+        		<translate x="22.7" y="0" z="0"/>
+                 <rotate angle="25" x="0" y ="0" z = "1" />
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <!-- JUPITER -->
+        <group>
+        	<transform>
+        		<translate x="27.85" y="0" z="0"/>
+                <rotate angle="1.31" x="0" y ="0" z = "1" />
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+            <group>
+            	<transform>
+                    <rotate angle="-1.31" x="0" y ="0" z = "1" />
+            		<translate x="1.04" y="0" z="0"/>  <!-- Lua Jupiter 1 Io -->
+                    <scale x="0.08" y="0.08" z="0.08"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+            <group>
+            	<transform>
+                    <rotate angle="-1.31" x="0" y ="0" z = "1" />
+            		<translate x="1.06" y="0" z="0"/>  <!-- Lua Jupiter 2 Europa-->
+                    <scale x="0.07" y="0.07" z="0.07"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+            <group>
+            	<transform>
+                    <rotate angle="-1.31" x="0" y ="0" z = "1" />
+            		<translate x="1.1" y="0" z="0"/>  <!-- Lua Jupiter 3 Ganymede-->
+                    <scale x="0.1" y="0.1" z="0.1"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group> 
+            <group>
+            	<transform>
+                    <rotate angle="-1.31" x="0" y ="0" z = "1" />
+            		<translate x="1.18" y="0" z="0"/>  <!-- Lua Jupiter 4 Calisto-->
+                    <scale x="0.1" y="0.1" z="0.1"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>               
+        </group>
+        <!-- SATURNO-->
+        <group>
+        	<transform>
+        		<translate x="32.16" y="0" z="0"/>
+                <rotate angle="26.7" x="0" y ="0" z = "1" />
+                <scale x="0.9" y="0.9" z="0.9"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+            <group>
+            	<transform>
+                    <rotate angle="-26.7" x="0" y ="0" z = "1" />
+            		<translate x="1.12" y="0" z="0"/>  <!-- Lua Saturno 1  Titan-->
+                    <scale x="0.09" y="0.09" z="0.09"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+            <group>
+            	<transform>
+                    <rotate angle="-26.7" x="0" y ="0" z = "1" />
+            		<translate x="1.05" y="0" z="0"/>  <!-- Lua Saturno 2 Rhea-->
+                    <scale x="0.02" y="0.02" z="0.02"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+            <group>
+            	<transform>
+                    <rotate angle="-26.7" x="0" y ="0" z = "1" />
+            		<translate x="1.03" y="0" z="0"/>  <!-- Lua Saturno 3 Dione-->
+                    <scale x="0.02" y="0.02" z="0.02"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+            <group>
+            	<transform>
+                    <rotate angle="-26.7" x="0" y ="0" z = "1" />
+            		<translate x="1.02" y="0" z="0"/>  <!-- Lua Saturno 4 Tethys-->
+                    <scale x="0.02" y="0.02" z="0.02"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+        	<group>
+        		<transform> <!-- Anel Saturno -->
+                <scale x="0.45" y="0.45" z="0.45"/>
+                <rotate angle="70" x="1" y="0" z="0"/>
+            	</transform>
+            	<models>
+                    <model file="torus.3d"/>
+                </models>
+            </group>
+        </group>
+        <!-- URANO -->
+        <group>
+        	<transform>
+        		<translate x="37.25" y="0" z="0"/>
+                <rotate angle="97.7" x="0" y ="0" z = "1" />
+                <scale x="0.35" y="0.35" z="0.35"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+            <group>
+            	<transform>
+                    <rotate angle="-97.7" x="0" y ="0" z = "1" />
+            		<translate x="1.04" y="0" z="0"/>  <!-- Lua Urano 1 Titania-->
+                    <scale x="0.03" y="0.03" z="0.03"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+            <group>
+            	<transform>
+                    <rotate angle="-97.7" x="0" y ="0" z = "1" />
+            		<translate x="1.05" y="0" z="0"/>  <!-- Lua Urano 2 Oberon-->
+                    <scale x="0.03" y="0.03" z="0.03"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+        	<group>
+        		<transform>
+        		<rotate angle="60" x="1" y="0" z="0"/>
+                <scale x="0.2" y="0.2" z="0.2"/>
+            	</transform>
+            	<!-- Anel Urano-->
+            	<models>
+                    <model file="torus.3d"/>
+                </models>
+            </group>
+        </group>
+        <!-- NEPTUNO -->
+        <group>
+        	<transform>
+        		<translate x="42.1" y="0" z="0"/>
+                <rotate angle="28.32" x="0" y ="0" z = "1" />
+                <scale x="0.3" y="0.3" z="0.3"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+            <group>
+            	<transform>
+                    <rotate angle="-28.32" x="0" y ="0" z = "1" />
+            		<translate x="1.03" y="0" z="0"/>  <!-- Lua Neptuno 1 Triton-->
+                    <scale x="0.05" y="0.05" z="0.05"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+            <group>
+            	<transform>
+                    <rotate angle="-28.32" x="0" y ="0" z = "1" />
+            		<translate x="1.01" y="0" z="0"/>  <!-- Lua Neptuno 2 Proteus-->
+                    <scale x="0.007" y="0.007" z="0.007"/>
+                </transform>
+                <models>
+                    <model file="sphere.3d"/>
+                </models>
+            </group>
+        </group>
+    </group>
+</world>
+
+
+
+
+
